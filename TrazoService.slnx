@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="TrazoService.Api/TrazoService.Api.csproj" />
+  <Project Path="TrazoService.Application/TrazoService.Application.csproj" />
+  <Project Path="TrazoService.Domain/TrazoService.Domain.csproj" />
+  <Project Path="TrazoService.Infrastructure/TrazoService.Infrastructure.csproj" />
+</Solution>
