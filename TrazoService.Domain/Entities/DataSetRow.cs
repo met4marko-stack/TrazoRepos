@@ -1,8 +1,9 @@
+using TrazoService.Domain.Entities.Templates;
+
 namespace TrazoService.Domain.Entities;
 
-public class DataSetRow
+public class DataSetRow : BaseEntity
 {
-    public int Id { get; set; }
     public string Label { get; set; }
     public string Name { get; set; }
     

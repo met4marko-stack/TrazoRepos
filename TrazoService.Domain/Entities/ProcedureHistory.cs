@@ -1,8 +1,9 @@
+using TrazoService.Domain.Entities.Templates;
+
 namespace TrazoService.Domain.Entities;
 
-public class ProcedureHistory
+public class ProcedureHistory : BaseEntity
 {
-    public int Id { get; set; }
     public string Status { get; set; }
     public DateTime TimeIn { get; set; }    
     public DateTime TimeOut { get; set; }    

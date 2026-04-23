@@ -1,8 +1,8 @@
-namespace TrazoService.Domain.Entities;
-public class StepUser
-{
-    public int Id { get; set; }
+using TrazoService.Domain.Entities.Templates;
 
+namespace TrazoService.Domain.Entities;
+public class StepUser : BaseEntity
+{
     // Foreign Keys
     public int StepId { get; set; }
     public Step Step { get; set; }

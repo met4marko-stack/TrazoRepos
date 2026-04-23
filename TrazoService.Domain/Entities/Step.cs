@@ -1,8 +1,9 @@
+using TrazoService.Domain.Entities.Templates;
+
 namespace TrazoService.Domain.Entities;
 
-public class Step
+public class Step : BaseEntity
 {
-    public int Id { get; set; }
     public string Name { get; set; }
     public string Description { get; set; }
     public bool IsInitialStep { get; set; } 

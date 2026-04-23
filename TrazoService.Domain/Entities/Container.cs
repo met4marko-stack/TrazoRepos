@@ -1,8 +1,9 @@
+using TrazoService.Domain.Entities.Templates;
+
 namespace TrazoService.Domain.Entities;
 
-public class Container
+public class Container : BaseEntity
 {
-    public int Id { get; set; }
     public string Code { get; set; }
     public string Type { get; set; }
     public string Name { get; set; }

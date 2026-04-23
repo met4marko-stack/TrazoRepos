@@ -1,8 +1,9 @@
+using TrazoService.Domain.Entities.Templates;
+
 namespace TrazoService.Domain.Entities;
 
-public class DataSetHistory
+public class DataSetHistory : BaseEntity
 {
-    public int Id { get; set; }
     public string ValueCurrent { get; set; }
     public string ValueBefore { get; set; } 
     

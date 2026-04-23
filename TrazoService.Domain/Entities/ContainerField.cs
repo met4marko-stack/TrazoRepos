@@ -1,8 +1,9 @@
+using TrazoService.Domain.Entities.Templates;
+
 namespace TrazoService.Domain.Entities;
 
-public class ContainerField
+public class ContainerField : BaseEntity
 {
-    public int Id { get; set; }
     public int OrdenPresentation { get; set; }
     public int IsRequire { get; set; }
 

@@ -1,8 +1,9 @@
+using TrazoService.Domain.Entities.Templates;
+
 namespace TrazoService.Domain.Entities;
 
-public class ConnectionStep
+public class ConnectionStep : BaseEntity
 {
-    public int Id { get; set; }
     public bool IsDefault { get; set; }
     
     public string Description { get; set; }

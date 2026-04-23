@@ -1,9 +1,9 @@
+using TrazoService.Domain.Entities.Templates;
+
 namespace TrazoService.Domain.Entities;
 
-public class Condition
+public class Condition : BaseEntity
 {
-    public int Id { get; set; }
-    
     public string Operator { get; set; }
     
     public string CompareValueText { get; set; }

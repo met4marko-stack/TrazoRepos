@@ -1,8 +1,9 @@
+using TrazoService.Domain.Entities.Templates;
+
 namespace TrazoService.Domain.Entities;
 
-public class Field
+public class Field : BaseEntity
 {
-    public int Id { get; set; }
     public string Name { get; set; }
     public string Label { get; set; } 
     

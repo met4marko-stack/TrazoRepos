@@ -1,8 +1,9 @@
+using TrazoService.Domain.Entities.Templates;
+
 namespace TrazoService.Domain.Entities;
 
-public class Procedure
+public class Procedure : BaseEntity
 {
-    public int Id { get; set; }
     public string Code { get; set; } 
     public string Name { get; set; }
     public string Description { get; set; }

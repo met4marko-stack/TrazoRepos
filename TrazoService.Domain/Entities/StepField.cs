@@ -1,8 +1,9 @@
+using TrazoService.Domain.Entities.Templates;
+
 namespace TrazoService.Domain.Entities;
 
-public class StepField
+public class StepField : BaseEntity
 {
-    public int Id { get; set; }
     public int Order { get; set; }
     public bool IsRequired { get; set; }
     public string ValidationRuleJson { get; set; }

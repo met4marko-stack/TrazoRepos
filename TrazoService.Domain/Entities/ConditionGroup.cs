@@ -1,8 +1,9 @@
+using TrazoService.Domain.Entities.Templates;
+
 namespace TrazoService.Domain.Entities;
 
-public class ConditionGroup
+public class ConditionGroup : BaseEntity
 {
-    public int Id { get; set; }
     public string Description { get; set; }
     // Foreign Keys
     public int ConnectionStepsId { get; set; }
